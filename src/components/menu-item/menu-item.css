@@ -15,11 +15,12 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    transition: 1s;
 }
 
-.background-img:hover {
+.menu-item:hover .background-img {
     transform: scale(1.1);
-    transition: 3s;
+    transition: 2s;
 }
 
 .menu-item:hover .content {
