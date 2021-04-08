@@ -6,7 +6,7 @@ const PreviewCollection = (props) => {
 
     return(
         <div className="preview-container">
-            <h1>{ props.title }</h1>
+            <h1 style={{paddingLeft: '20px'}}>{ props.title }</h1>
             <div className='preview'>
                 {
                     props.items.map(item => {
