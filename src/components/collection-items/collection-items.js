@@ -9,6 +9,9 @@ const CollectionItems = ({ id, name, imageUrl, price}) => {
                 <span className="itemName">{ name }</span>
                 <span className="itemPrice">£{ price }</span>
             </div>
+            <div className="addToCart">
+                <h1 className="addToCartH1">Add to cart</h1>
+            </div>
         </div>
     )
 }

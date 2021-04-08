@@ -1,6 +1,7 @@
 .collection-items {
     width: 25%;
     margin: 20px 20px;
+    position: relative;
 }
 .image {
     height: 350px;
@@ -18,4 +19,31 @@
 .itemPrice{
     position: absolute;
     right: 0;
+}
+.addToCart {
+    width: 80%;
+    margin: auto;
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    z-index: -1;
+}
+
+.addToCartH1 {
+    background: rgba(170, 177, 189, .7);
+    padding: 5px 10px; 
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.collection-items:hover .addToCart {
+    z-index: 3;
+    cursor: pointer;
+}
+.collection-items:hover .image {
+    opacity: 0.7;
 }
