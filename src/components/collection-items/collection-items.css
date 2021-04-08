@@ -1,0 +1,21 @@
+.collection-items {
+    width: 25%;
+    margin: 20px 20px;
+}
+.image {
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+}
+.collection-footer {
+    position: relative;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 10px 10px -10px;
+}
+.itemPrice{
+    position: absolute;
+    right: 0;
+}
